@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #35424a;
+    background: #3a3d42;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -25,21 +26,31 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
-section {
+main {
     padding: 20px;
     margin: 20px;
     background: #ffffff;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4a4e54;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #3a3d42;
     color: #ffffff;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+ul {
+    margin-left: 20px;
 }
