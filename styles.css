@@ -1,16 +1,17 @@
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: 'Georgia', serif; /* Keep the serif font for a classic feel */
+    background-color: #2c2f33; /* Darker background for a more eerie atmosphere */
+    color: #e0e0e0; /* Light gray text for contrast */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: #3a3d42;
-    color: #ffffff;
+    background: #1f2124; /* Darker header for a more ominous look */
+    color: #ffcc00; /* Gold color for a vintage, rustic feel */
     padding: 20px 0;
     text-align: center;
+    text-shadow: 1px 1px 2px black; /* Subtle shadow for depth */
 }
 
 nav ul {
@@ -24,28 +25,34 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffcc00; /* Match link color with header */
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Change color on hover for visibility */
 }
 
 main {
     padding: 20px;
     margin: 20px;
-    background: #ffffff;
+    background: #3a3d42; /* Darker main background for a cohesive look */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
 }
 
 h1, h2 {
-    color: #4a4e54;
+    color: #ffcc00; /* Gold color for headings */
+    text-shadow: 1px 1px 2px black; /* Shadow for a more dramatic effect */
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #3a3d42;
-    color: #ffffff;
+    background: #1f2124; /* Match footer with header */
+    color: #ffcc00; /* Consistent footer color */
     position: relative;
     bottom: 0;
     width: 100%;
@@ -53,4 +60,5 @@ footer {
 
 ul {
     margin-left: 20px;
+    color: #e0e0e0; /* Ensure list items are visible */
 }
